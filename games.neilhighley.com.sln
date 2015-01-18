@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "website", "website\website.csproj", "{D3B69E07-68AB-4075-B1EB-F070CD91CCB5}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "gamesDB", "gamesDB\gamesDB.sqlproj", "{E840B607-9681-4AC1-8E15-4F90CC346545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siteapi", "siteapi\siteapi.csproj", "{CBA4EAB0-FB05-4576-95FC-348B1E3AFA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siteapi.Tests", "siteapi.Tests\siteapi.Tests.csproj", "{08621432-61B9-46DD-9CB8-4E037D9E316C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siteServices", "siteServices\siteServices.csproj", "{FBC29947-ECC5-4C04-A01E-A75DB5DCE56B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "planning", "planning", "{3E87DD62-AF6E-4A8F-87FD-98588B81B572}"
+	ProjectSection(SolutionItems) = preProject
+		balsamiq\mockups.bmml = balsamiq\mockups.bmml
+		plan.txt = plan.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3B69E07-68AB-4075-B1EB-F070CD91CCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B69E07-68AB-4075-B1EB-F070CD91CCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B69E07-68AB-4075-B1EB-F070CD91CCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B69E07-68AB-4075-B1EB-F070CD91CCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E840B607-9681-4AC1-8E15-4F90CC346545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E840B607-9681-4AC1-8E15-4F90CC346545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E840B607-9681-4AC1-8E15-4F90CC346545}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E840B607-9681-4AC1-8E15-4F90CC346545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E840B607-9681-4AC1-8E15-4F90CC346545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E840B607-9681-4AC1-8E15-4F90CC346545}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CBA4EAB0-FB05-4576-95FC-348B1E3AFA56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA4EAB0-FB05-4576-95FC-348B1E3AFA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA4EAB0-FB05-4576-95FC-348B1E3AFA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA4EAB0-FB05-4576-95FC-348B1E3AFA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08621432-61B9-46DD-9CB8-4E037D9E316C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08621432-61B9-46DD-9CB8-4E037D9E316C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08621432-61B9-46DD-9CB8-4E037D9E316C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08621432-61B9-46DD-9CB8-4E037D9E316C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC29947-ECC5-4C04-A01E-A75DB5DCE56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC29947-ECC5-4C04-A01E-A75DB5DCE56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC29947-ECC5-4C04-A01E-A75DB5DCE56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC29947-ECC5-4C04-A01E-A75DB5DCE56B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
