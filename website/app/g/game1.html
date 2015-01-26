@@ -1,0 +1,23 @@
+﻿<canvas id="game1" style="overflow:hidden" class="col-xs-12"></canvas>
+<script>
+    var canvas = document.getElementById("game1");
+    canvas.width = window.innerWidth-5;
+    canvas.height = window.innerHeight-5;
+    var stage = new createjs.Stage(canvas);
+    var fxContainer = new createjs.Container();
+    stage.addChild(fxContainer);
+
+    var bgContainer = new createjs.Container();
+    var fgContainer = new createjs.Container();
+    stage.addChild(bgContainer);
+    stage.addChild(fgContainer);
+
+    var gameMain = new GameOneMain();
+    gameMain.init(stage, bgContainer, fgContainer, fxContainer);
+
+    gameMain.clearScreen("#000");
+    
+   
+   
+
+</script>

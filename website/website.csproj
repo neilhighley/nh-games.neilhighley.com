@@ -57,12 +57,33 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\c.js" />
+    <Content Include="app\conf.js" />
+    <Content Include="app\d.js" />
+    <Content Include="app\g\game1.html" />
+    <Content Include="app\d\gamesMenu.html" />
+    <Content Include="app\d\menuIntro.html" />
+    <Content Include="app\fa.js" />
+    <Content Include="app\g\main.js" />
+    <Content Include="app\m.js" />
+    <Content Include="app\main.js" />
+    <Content Include="app\p\front.html" />
+    <Content Include="app\r.js" />
+    <Content Include="app\s.js" />
+    <Content Include="data\gamedata.js" />
+    <Content Include="index2.html" />
+    <Content Include="Index.html" />
+    <Content Include="scripts\createjs-2014.12.12.min.js" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\reset.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\games.neilhighley.com site.pubxml" />
+    <None Include="Properties\PublishProfiles\localbuild.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,6 +91,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
