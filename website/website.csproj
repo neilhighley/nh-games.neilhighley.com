@@ -64,7 +64,7 @@
     <Content Include="app\d\gamesMenu.html" />
     <Content Include="app\d\menuIntro.html" />
     <Content Include="app\fa.js" />
-    <Content Include="app\g\main.js" />
+    <Content Include="app\g\gameOne.js" />
     <Content Include="app\m.js" />
     <Content Include="app\main.js" />
     <Content Include="app\p\front.html" />
