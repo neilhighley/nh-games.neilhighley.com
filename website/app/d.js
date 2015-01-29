@@ -52,7 +52,7 @@ nhDirectives.directive("gamesMenu", ["$compile", function ($compile) {
             launcher:"="
         },
         controller:controller,
-        templateUrl: "../app/d/gamesMenu.html"
+        templateUrl: "app/d/gamesMenu.html"
     }
 
 
@@ -65,7 +65,7 @@ nhDirectives.directive("menuIntro", ["$compile", function ($compile) {
         scope: {
             intro: "="
         },
-        templateUrl: "../app/d/menuIntro.html"
+        templateUrl: "app/d/menuIntro.html"
     }
 
 
@@ -76,7 +76,7 @@ nhDirectives.directive("gameOne", [function() {
         return {
             restrict:"E",
             scope:false,
-            templateUrl:"../app/g/game1.html"
+            templateUrl:"app/g/game1.html"
         }
     }
 ]);

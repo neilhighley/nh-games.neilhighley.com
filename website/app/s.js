@@ -5,7 +5,7 @@ var nhServices = angular.module('nhServices', []);
 
 nhServices.service("GameService", function () {
     this.GetGameData = function () {
-        return $.ajax({ url: "/data/gamedata.js" });
+        return $.ajax({ url: "data/gamedata.js" });
     }
     var GameLauncherListers = [];
 
